@@ -1,0 +1,13 @@
+/* Custom styles for contact form */
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    border: 2px solid #ffffff !important;
+    background: rgba(255, 255, 255, 0.05) !important;
+}
+
+#contact input[type="text"]:focus,
+#contact input[type="email"]:focus,
+#contact textarea:focus {
+    border-color: #9bf1ff !important;
+}
